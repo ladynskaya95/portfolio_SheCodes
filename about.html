@@ -22,27 +22,86 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <script
-      src="https://kit.fontawesome.com/ddc3ee268a.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/2ef0e1c930.js" crossorigin="anonymous"></script>
+    <title>About Nastya</title>
   </head>
   <body>
+    <div class="container">
+    <nav class="d-flex justify-content-between">
+         <a href="/" title="Homepage">
+          <img src="images/logo.png" class="logo d-none d-md-block" alt="Nastya small Logo" />
+          <img
+            src="images/logo-small.png"
+            class="logo d-block d-md-none"
+            alt="Nastya Logo"
+          />
+        </a>
+      <ul>
+        <li>
+          <a 
+          title="homepage"
+          href="/"> Home </a>
+          </li>
+        <li class="active">
+          <a class="active href="/about.html"
+          title="About Nastya"> About </a>
+          </li>
+        <li>
+          <a href="/work.html" title="Nastya's work"> Work </a>
+          </li>
+        <li>
+          <a href="/contact.html" title="Contact Nastya"> Contact </a>
+          </li>
+      </ul>
+    </nav>
+ </div>
     <div class="about-section container">
         <div class="row">
             <div class="col-lg-6">
                 <div class="about-section-content">
-      <h1 class="mb-5">Hi I am Nastya Ladynskaya</h1>
+      <h1 class="mb-5">Hi, I am Nastya Ladynskaya</h1>
     <h2 class="mt-3">🇺🇦 Front-end developer, based in Kyiv, Ukraine</h2>
     <p class="mt-4">For anyone who wants to start learning code, this workshop is very interesting. You will be challenged  with different exercises, and everything is well explained, homework and deadlines are good for keep focus</p>
-     <a href="#" class="btn btn-branding">View all project</a>
+     <a href="/work.html" class="btn btn-branding">View all project</a>
             </div>
             </div>
             <div class="col-lg-6 mt-3">
      <img class="img-fluid" width="600px" src="./images/nastya.jpg" alt="nastya">
             </div>
         </div>
+        <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+       <div>
+         <h4>
+          Work Inquery
+        </h4>
+        <p class="text-muted">Let's work together</p>
+       </div>
+      <div>
+          <a class="btn btn-branding mt-3" href="/contact.html" title="Contact Nastya"> Contact me </a>
+      </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+     <a href="mailto:feverrr27@gmail.com"
+      class="email-link" title="email"
+     >feverrr27@gmail.com</a>
+     </div>
+     <div class="social-links d-flex justify-content-center">
+      <a href="https://www.instagram.com/nastya.ladynskaya" target="_blank" title="instagram profile">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://github.com/ladynskaya95" target="_blank" title="github profile">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.facebook.com/Nastya.Ladynskaya" target="_blank" title="facebook profile">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+     </div>
+     <p class="text-center mt-4">This project was coded by Nastya, and it is 
+      <a href="https://github.com/ladynskaya95/portfolio_SheCodes" target="_blank">open-soursed</a>
+       
+     </p>
+    </footer>
    </div>
   </body>
 </html>
