@@ -22,17 +22,21 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <script
-      src="https://kit.fontawesome.com/ddc3ee268a.js"
-      crossorigin="anonymous"
-    ></script>
+   <script src="https://kit.fontawesome.com/2ef0e1c930.js" crossorigin="anonymous"></script>
     <title>Document</title>
   </head>
   <body>
 
 <div class="container">
     <nav class="d-flex justify-content-between">
-         <img class="logo" src="./images/logo.png" alt="logo">
+         <a href="/">
+          <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt=""
+          />
+        </a>
       <ul>
         <li class="active">
           <a class="active" href="/"> Home </a>
@@ -120,6 +124,35 @@
             </div>
          
     </div>
+    <footer>
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+       <div>
+         <h4>
+          Work Inquery
+        </h4>
+        <p class="text-muted">Let's work together</p>
+       </div>
+      <div>
+          <a class="btn btn-branding mt-3" href=""> Contact me </a>
+      </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+     <a href="mailto:feverrr27@gmail.com"
+      class="email-link"
+     >feverrr27@gmail.com</a>
+     </div>
+     <div class="social-links d-flex justify-content-center">
+      <a href="https://www.instagram.com/nastya.ladynskaya" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://github.com/ladynskaya95" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.facebook.com/Nastya.Ladynskaya" target="_blank">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+     </div>
+    </footer>
    </div>
   </body>
 </html>
